@@ -44,7 +44,7 @@ DiamondNFT/
 1. Clone the repository:
 
    ```
-   git clone hhttps://github.com/Superior212/DiamondNFT.git
+   git clone hhttps://github.com/peternnadi1999/Diamond_NFT.git
    cd DiamondNFT
    ```
 
