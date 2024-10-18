@@ -1,15 +1,15 @@
-# DiamondNFT: Faceted Presale and Merkle Distribution
+# DiamondNFT: A Modular and Upgradeable NFT Platform
 
-## Overview
+## Introduction
 
-DiamondNFT is an advanced Ethereum-based NFT project that leverages the Diamond pattern to create a flexible and upgradeable smart contract system. It combines ERC721 functionality with a presale mechanism and Merkle tree-based token distribution.
+DiamondNFT is an advanced Ethereum-based non-fungible token (NFT) platform that leverages the Diamond pattern, enabling flexible and upgradeable smart contracts. It combines the functionality of the ERC721 standard with a presale mechanism and a Merkle tree-based token distribution system.
 
-## Features
+## Key Features
 
-- **Diamond Pattern**: Utilizes the Diamond pattern for modular and upgradeable smart contracts.
-- **ERC721 Compatibility**: Fully compliant with the ERC721 standard for non-fungible tokens.
-- **Presale Mechanism**: Allows for a presale period with customizable pricing and purchase limits.
-- **Merkle Distribution**: Implements a Merkle tree-based distribution system for efficient and gas-optimized token claiming.
+- **Modular Design**: Utilizes the Diamond pattern to create a modular and extensible smart contract architecture.
+- **ERC721 Compliance**: Fully adheres to the ERC721 standard for non-fungible tokens.
+- **Presale Functionality**: Incorporates a presale mechanism with configurable pricing and purchase limits.
+- **Merkle Distribution**: Implements an efficient and gas-optimized token distribution system based on Merkle trees.
 - **Foundry Integration**: Includes Foundry tests for robust contract verification and deployment.
 
 ## Project Structure
@@ -29,7 +29,6 @@ DiamondNFT/
 ├── lib/
 ├── merkle/
 │   ├── generateMerkleTree.ts
-│   └── whitelistAddresses.json
 ├── foundry.toml
 └── README.md
 ```
@@ -138,3 +137,4 @@ This project is licensed under the MIT License.
 ## Disclaimer
 
 This project is provided as-is and should be thoroughly audited before any production use. The authors are not responsible for any losses incurred through the use of this software.
+
